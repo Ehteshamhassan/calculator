@@ -1,0 +1,38 @@
+<HTML>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="New.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculator</h1>
+        <i>Hassan</i>
+        <input type="text" id="display" disabled>
+        <div class="buttons">
+            <button class="button" onclick="appdisp('7')">7</button>
+            <button class="button" onclick="appdisp('8')">8</button>
+            <button class="button" onclick="appdisp('9')">9</button>
+            <button class="button operator" onclick="appdisp('/')">/</button>
+            
+            <button class="button" onclick="appdisp('4')">4</button>
+            <button class="button" onclick="appdisp('5')">5</button>
+            <button class="button" onclick="appdisp('6')">6</button>
+            <button class="button operator" onclick="appdisp('*')">*</button>
+             
+            <button class="button" onclick="appdisp('1')">1</button>
+            <button class="button" onclick="appdisp('2')">2</button>
+            <button class="button" onclick="appdisp('3')">3</button>
+            <button class="button operator" onclick="appdisp('-')">-</button>
+            
+            <button class="button" onclick="appdisp('0')">0</button>
+            <button class="button" onclick="appdisp('.')">.</button>
+            <button class="button equal" onclick="out()">=</button>
+            <button class="button operator" onclick="appdisp('+')">+</button>
+            
+            <button class="button clear" onclick="clearDisplay()">C</button>
+        </div>
+    </div>
+
+    <script src="New.js"></script>
+</body>
+</html>
